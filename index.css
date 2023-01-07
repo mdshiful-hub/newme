@@ -1,0 +1,67 @@
+header{
+    background-image: url("./images/banner/banner1.png") ;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.headings {
+    text-align: right;
+    margin-right: 180px;
+} 
+
+.headings h1, p {
+    width: 250px;
+}
+
+.headings h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+.headings button {
+    background: orange;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+.text-body .top-body {
+
+    display: flex;
+    align-items: center;
+}
+
+.text-body .top-body .body-text {
+    padding-right: 100px;
+    width: 200px;
+}
+
+footer .first-section {
+    padding: 10px 200px;
+}
+
+footer {
+    height: 500px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+footer form{
+    display: flex;
+    flex-direction: column;
+}
+
+footer form button {
+    width: 100px;
+    margin-top: 20px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
